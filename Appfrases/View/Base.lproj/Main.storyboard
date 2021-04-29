@@ -88,7 +88,7 @@
                                 <rect key="frame" x="112" y="789" width="191" height="36"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g4-Vg-B0h">
-                                <rect key="frame" x="84" y="851" width="249" height="30"/>
+                                <rect key="frame" x="84" y="833" width="249" height="35"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="11"/>
                                 <state key="normal" title="Precisa de ajuda?  Converse com alguém aqui!">
                                     <color key="titleColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -101,9 +101,9 @@
                         <viewLayoutGuide key="safeArea" id="yiC-rd-C5J"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="9g4-Vg-B0h" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" constant="807" id="2Ac-BM-1Xg"/>
+                            <constraint firstItem="9g4-Vg-B0h" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" constant="789" id="2Ac-BM-1Xg"/>
                             <constraint firstItem="Ela-hN-chW" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" constant="16" id="3FE-3G-K7y"/>
-                            <constraint firstItem="9g4-Vg-B0h" firstAttribute="bottom" secondItem="yiC-rd-C5J" secondAttribute="bottom" constant="19" id="5fs-Bx-vlG"/>
+                            <constraint firstItem="9g4-Vg-B0h" firstAttribute="bottom" secondItem="yiC-rd-C5J" secondAttribute="bottom" constant="6" id="5fs-Bx-vlG"/>
                             <constraint firstItem="Ela-hN-chW" firstAttribute="trailing" secondItem="yiC-rd-C5J" secondAttribute="trailing" constant="-33" id="CXH-dq-DZO"/>
                             <constraint firstItem="DQJ-on-qKC" firstAttribute="bottom" secondItem="yiC-rd-C5J" secondAttribute="bottom" constant="34" id="Cgo-Ry-rN0"/>
                             <constraint firstItem="yiC-rd-C5J" firstAttribute="trailing" secondItem="DQJ-on-qKC" secondAttribute="trailing" id="Jpu-RA-nED"/>

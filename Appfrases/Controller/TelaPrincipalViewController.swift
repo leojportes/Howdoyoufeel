@@ -35,6 +35,7 @@ class TelaPrincipalViewController: UIViewController {
     
     @IBOutlet weak var backgroundImage: UIView!
     
+
         // MARK: Actions
     
     @IBAction func btHelpMe(_ sender: UIButton) {
@@ -79,7 +80,7 @@ class TelaPrincipalViewController: UIViewController {
     
     // MARK: Functions
     
-    func configuraBackGround() {
+    public func configuraBackGround() {
         let gradientlayer = CAGradientLayer()
         gradientlayer.frame = view.bounds
         gradientlayer.colors = [#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1).cgColor, UIColor(red: 106/255, green: 213/255, blue: 141/255, alpha: 100).cgColor]
@@ -89,26 +90,23 @@ class TelaPrincipalViewController: UIViewController {
         gradientlayer.endPoint =  CGPoint(x: 0.5, y: -0.5)
     }
     
-public func playlistSpotify() {
-    
-    
-    if entradaFelicidade.text == sentimento[1] {
-        UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/37i9dQZF1DWUIDYTCle9M9?si=13355c935d114102")! as URL, options: [:], completionHandler: nil)
-        
-    }else if entradaFelicidade.text == sentimento[2] {
-        UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/37i9dQZF1DWYBO1MoTDhZI?si=3e25637f9b2f41cd")! as URL, options: [:], completionHandler: nil)
-        
-    }else if entradaFelicidade.text == sentimento[3] {
-        UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/37i9dQZF1DX6aTaZa0K6VA?si=f9354309ad9643a5")! as URL, options: [:], completionHandler: nil)
-         
-    }else if entradaFelicidade.text == sentimento[4] {
-        UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/6nVlroxRmcs6h03Jl18nfR?si=bef5d0f66db64223")! as URL, options: [:], completionHandler: nil)
-            }
+    public func playlistSpotify() {
+
+        if entradaFelicidade.text == sentimento[1] {
+            UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/37i9dQZF1DWUIDYTCle9M9?si=13355c935d114102")! as URL, options: [:], completionHandler: nil)
+            
+        }else if entradaFelicidade.text == sentimento[2] {
+            UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/37i9dQZF1DWYBO1MoTDhZI?si=3e25637f9b2f41cd")! as URL, options: [:], completionHandler: nil)
+            
+        }else if entradaFelicidade.text == sentimento[3] {
+            UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/37i9dQZF1DX6aTaZa0K6VA?si=f9354309ad9643a5")! as URL, options: [:], completionHandler: nil)
+             
+        }else if entradaFelicidade.text == sentimento[4] {
+            UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/6nVlroxRmcs6h03Jl18nfR?si=bef5d0f66db64223")! as URL, options: [:], completionHandler: nil)
+                }
 }
      
     func validaFelicidade() {
-        
-    
         
         let escolhaSentimento: [String] = ["Escolha um Sentimento"]
         
@@ -116,10 +114,8 @@ public func playlistSpotify() {
        
         let frasesTriste: [String] = ["frase triste 1", "frase triste 2", "frase triste 3", "frase triste 4"]
         
-        
         let frasesCansado: [String] = ["O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence obstáculos, no mínimo fará coisas admiráveis\n – José de Alencar", "Se você quer ser bem-sucedido precisa de dedicação total, buscar seu último limite e dar o melhor de si mesmo.\n – Ayrton Senna", "Não crie limites para si mesmo. Você deve ir tão longe quanto sua mente permitir. O que você mais quer pode ser conquistado\n – Mary Kay Ash"]
        
-        
         let frasesAnsioso: [String] = ["Seja mais paciente, mas não deixe que esse estado de espírito te faça desistir das coisas. ", "Uma das práticas mais benéficas para um ansioso é a meditação. Sente-se, conecte-se consigo mesmo e controle sua respiração. Você verá o bem que esse ritual tão simples fará para sua mente.", "Espante a ansiedade de sua vida. Traga para o presente apenas os momentos de felicidade, apenas aquilo que te fará uma pessoa melhor.", "Nem todos os dias da sua vida precisam ser tão produtivos. Coloque sua saúde mental em primeiro lugar e não se force além do que seus limites permitem com tanta frequência.", "Ansiedade é exatamente isso: nada aconteceu, e no seu pensamento está tudo perdido e desmoronado.", "A ansiedade envenena o corpo e o espírito. Respire fundo, mantenha a calma e seja positivo. As coisas vão dar certo.", "A ansiedade tenta nos consumir todos os dias, até que um dia decidimos resistir e deixar o tempo nos levar.", "Você nunca será perfeito, pare de ficar se comparando com as outras pessoas, elas também não são perfeitas.", "Respire devagar e tente manter a calma. É importante que você prenda a respiração quando se sentir ansioso. Respire bem fundo e solte devagar por várias vezes. ", "Você não pode controlar tudo o que acontece no mundo, liberte-se dos pensamentos negativos e siga em busca dos seus sonhos.", "Você pode superar todos os seus problemas, basta ter calma e refletir sobre a solução. Tudo pode ser resolvido, tenha paciência. "]
         
         let frasesExausto: [String] = ["1","2","3"]
@@ -191,8 +187,6 @@ public func playlistSpotify() {
         }
     }
 }
-//    let sentimento = ["Escolha um sentimento","Estou feliz", "Estou triste", "Estou cansado", "Estou ansioso", "Estou exausto", "Estou estressado", "Estou doente", "Estou empolgado", "Estou Alegre", "Estou nervoso"]
-    
 
     // MARK: Extensions
 

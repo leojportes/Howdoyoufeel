@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C17AE6202638959800C19837 /* Frases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AE61F2638959800C19837 /* Frases.swift */; };
 		C17AE623263895EA00C19837 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */; };
 		C1DB747F2637554500BDA717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB747E2637554500BDA717 /* AppDelegate.swift */; };
 		C1DB74812637554500BDA717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB74802637554500BDA717 /* SceneDelegate.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C17AE61F2638959800C19837 /* Frases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frases.swift; sourceTree = "<group>"; };
 		C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaPrincipalViewController.swift; sourceTree = "<group>"; };
 		C1DB747B2637554500BDA717 /* Appfrases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appfrases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DB747E2637554500BDA717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +42,6 @@
 		C17AE61A2638955400C19837 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C17AE61F2638959800C19837 /* Frases.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -52,6 +49,7 @@
 		C17AE61B2638955600C19837 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C1DB748C2637554A00BDA717 /* LaunchScreen.storyboard */,
 				C1DB74842637554500BDA717 /* Main.storyboard */,
 			);
 			path = View;
@@ -90,7 +88,6 @@
 				C1DB747E2637554500BDA717 /* AppDelegate.swift */,
 				C1DB74802637554500BDA717 /* SceneDelegate.swift */,
 				C1DB748A2637554A00BDA717 /* Assets.xcassets */,
-				C1DB748C2637554A00BDA717 /* LaunchScreen.storyboard */,
 				C1DB748F2637554A00BDA717 /* Info.plist */,
 				C1DB74872637554500BDA717 /* Appfrases.xcdatamodeld */,
 			);
@@ -171,7 +168,6 @@
 				C1DB747F2637554500BDA717 /* AppDelegate.swift in Sources */,
 				C1DB74812637554500BDA717 /* SceneDelegate.swift in Sources */,
 				C1DB74892637554500BDA717 /* Appfrases.xcdatamodeld in Sources */,
-				C17AE6202638959800C19837 /* Frases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
