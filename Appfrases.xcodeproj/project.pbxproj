@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1886BD7EA0CA20806CF5810E /* Pods_Appfrases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41C24AEB8AD2F89AC2C1C2 /* Pods_Appfrases.framework */; };
+		C12186D4263B916200928890 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12186D3263B916200928890 /* GoogleService-Info.plist */; };
+		C12186FA263BA77500928890 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12186F9263BA77500928890 /* LoginViewController.swift */; };
 		C17AE623263895EA00C19837 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */; };
 		C1DB747F2637554500BDA717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB747E2637554500BDA717 /* AppDelegate.swift */; };
 		C1DB74812637554500BDA717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB74802637554500BDA717 /* SceneDelegate.swift */; };
@@ -14,9 +17,14 @@
 		C1DB74892637554500BDA717 /* Appfrases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1DB74872637554500BDA717 /* Appfrases.xcdatamodeld */; };
 		C1DB748B2637554A00BDA717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DB748A2637554A00BDA717 /* Assets.xcassets */; };
 		C1DB748E2637554A00BDA717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DB748C2637554A00BDA717 /* LaunchScreen.storyboard */; };
+		C1E7F2EE263B441E001CE4A5 /* CadastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7F2ED263B441E001CE4A5 /* CadastrarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F41C24AEB8AD2F89AC2C1C2 /* Pods_Appfrases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appfrases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA968B8BBC0D306558849A2 /* Pods-Appfrases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appfrases.debug.xcconfig"; path = "Target Support Files/Pods-Appfrases/Pods-Appfrases.debug.xcconfig"; sourceTree = "<group>"; };
+		C12186D3263B916200928890 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C12186F9263BA77500928890 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaPrincipalViewController.swift; sourceTree = "<group>"; };
 		C1DB747B2637554500BDA717 /* Appfrases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appfrases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DB747E2637554500BDA717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		C1DB748A2637554A00BDA717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1DB748D2637554A00BDA717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1DB748F2637554A00BDA717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E7F2ED263B441E001CE4A5 /* CadastrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarViewController.swift; sourceTree = "<group>"; };
+		C42986388422B549B5D301AA /* Pods-Appfrases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appfrases.release.xcconfig"; path = "Target Support Files/Pods-Appfrases/Pods-Appfrases.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +43,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1886BD7EA0CA20806CF5810E /* Pods_Appfrases.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		428A224B5FB51ABA04DF5302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F41C24AEB8AD2F89AC2C1C2 /* Pods_Appfrases.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A70F6BC0176CCCC69B36D60F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAA968B8BBC0D306558849A2 /* Pods-Appfrases.debug.xcconfig */,
+				C42986388422B549B5D301AA /* Pods-Appfrases.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C17AE61A2638955400C19837 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */,
+				C1E7F2ED263B441E001CE4A5 /* CadastrarViewController.swift */,
+				C12186F9263BA77500928890 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -68,6 +98,8 @@
 			children = (
 				C1DB747D2637554500BDA717 /* Appfrases */,
 				C1DB747C2637554500BDA717 /* Products */,
+				A70F6BC0176CCCC69B36D60F /* Pods */,
+				428A224B5FB51ABA04DF5302 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +120,9 @@
 				C1DB747E2637554500BDA717 /* AppDelegate.swift */,
 				C1DB74802637554500BDA717 /* SceneDelegate.swift */,
 				C1DB748A2637554A00BDA717 /* Assets.xcassets */,
-				C1DB748F2637554A00BDA717 /* Info.plist */,
+				C12186D3263B916200928890 /* GoogleService-Info.plist */,
 				C1DB74872637554500BDA717 /* Appfrases.xcdatamodeld */,
+				C1DB748F2637554A00BDA717 /* Info.plist */,
 			);
 			path = Appfrases;
 			sourceTree = "<group>";
@@ -101,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1DB74922637554A00BDA717 /* Build configuration list for PBXNativeTarget "Appfrases" */;
 			buildPhases = (
+				9B0E0B162926A39F973D3520 /* [CP] Check Pods Manifest.lock */,
 				C1DB74772637554500BDA717 /* Sources */,
 				C1DB74782637554500BDA717 /* Frameworks */,
 				C1DB74792637554500BDA717 /* Resources */,
+				F0D9F3B867A6DA7932055DC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1DB748E2637554A00BDA717 /* LaunchScreen.storyboard in Resources */,
+				C12186D4263B916200928890 /* GoogleService-Info.plist in Resources */,
 				C1DB748B2637554A00BDA717 /* Assets.xcassets in Resources */,
 				C1DB74862637554500BDA717 /* Main.storyboard in Resources */,
 			);
@@ -159,14 +195,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B0E0B162926A39F973D3520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appfrases-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D9F3B867A6DA7932055DC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appfrases/Pods-Appfrases-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appfrases/Pods-Appfrases-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appfrases/Pods-Appfrases-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1DB74772637554500BDA717 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12186FA263BA77500928890 /* LoginViewController.swift in Sources */,
 				C17AE623263895EA00C19837 /* TelaPrincipalViewController.swift in Sources */,
 				C1DB747F2637554500BDA717 /* AppDelegate.swift in Sources */,
 				C1DB74812637554500BDA717 /* SceneDelegate.swift in Sources */,
+				C1E7F2EE263B441E001CE4A5 /* CadastrarViewController.swift in Sources */,
 				C1DB74892637554500BDA717 /* Appfrases.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +391,7 @@
 		};
 		C1DB74932637554A00BDA717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA968B8BBC0D306558849A2 /* Pods-Appfrases.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,6 +410,7 @@
 		};
 		C1DB74942637554A00BDA717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42986388422B549B5D301AA /* Pods-Appfrases.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+
+h2{
+    position: absolute;
+    background: #000;
+    font-size: 18vw;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    mix-blend-mode: multiply;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

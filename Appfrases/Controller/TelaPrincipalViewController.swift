@@ -17,8 +17,9 @@ class TelaPrincipalViewController: UIViewController {
         pickerViewFelicidades.delegate = self
         entradaFelicidade.inputView = pickerViewFelicidades
         configuraBackGround()
-        
     }
+    
+    
     // MARK: Variables
     
     let sentimento = ["Escolha um sentimento","Estou feliz", "Estou triste", "Estou cansado", "Estou ansioso", "Estou exausto", "Estou estressado", "Estou doente", "Estou empolgado", "Estou Alegre", "Estou nervoso"]

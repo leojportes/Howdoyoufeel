@@ -1,0 +1,6 @@
+framework module Pods_Appfrases {
+  umbrella header "Pods-Appfrases-umbrella.h"
+
+  export *
+  module * { export * }
+}
