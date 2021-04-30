@@ -55,6 +55,11 @@ class LoginViewController: UIViewController {
         })
     }
     
+    @IBAction func btRedefinirSenha(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "redefinirSenhaSegue", sender: nil)
+    }
+    
     
 }
 

@@ -10,6 +10,7 @@
 		1886BD7EA0CA20806CF5810E /* Pods_Appfrases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41C24AEB8AD2F89AC2C1C2 /* Pods_Appfrases.framework */; };
 		C12186D4263B916200928890 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12186D3263B916200928890 /* GoogleService-Info.plist */; };
 		C12186FA263BA77500928890 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12186F9263BA77500928890 /* LoginViewController.swift */; };
+		C14B098D263C8CA200FC0AA7 /* RedefinirSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B098C263C8CA200FC0AA7 /* RedefinirSenhaViewController.swift */; };
 		C17AE623263895EA00C19837 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */; };
 		C1DB747F2637554500BDA717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB747E2637554500BDA717 /* AppDelegate.swift */; };
 		C1DB74812637554500BDA717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB74802637554500BDA717 /* SceneDelegate.swift */; };
@@ -25,6 +26,7 @@
 		AAA968B8BBC0D306558849A2 /* Pods-Appfrases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appfrases.debug.xcconfig"; path = "Target Support Files/Pods-Appfrases/Pods-Appfrases.debug.xcconfig"; sourceTree = "<group>"; };
 		C12186D3263B916200928890 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C12186F9263BA77500928890 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C14B098C263C8CA200FC0AA7 /* RedefinirSenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedefinirSenhaViewController.swift; sourceTree = "<group>"; };
 		C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaPrincipalViewController.swift; sourceTree = "<group>"; };
 		C1DB747B2637554500BDA717 /* Appfrases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appfrases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DB747E2637554500BDA717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				C17AE622263895EA00C19837 /* TelaPrincipalViewController.swift */,
 				C1E7F2ED263B441E001CE4A5 /* CadastrarViewController.swift */,
 				C12186F9263BA77500928890 /* LoginViewController.swift */,
+				C14B098C263C8CA200FC0AA7 /* RedefinirSenhaViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				C12186FA263BA77500928890 /* LoginViewController.swift in Sources */,
 				C17AE623263895EA00C19837 /* TelaPrincipalViewController.swift in Sources */,
 				C1DB747F2637554500BDA717 /* AppDelegate.swift in Sources */,
+				C14B098D263C8CA200FC0AA7 /* RedefinirSenhaViewController.swift in Sources */,
 				C1DB74812637554500BDA717 /* SceneDelegate.swift in Sources */,
 				C1E7F2EE263B441E001CE4A5 /* CadastrarViewController.swift in Sources */,
 				C1DB74892637554500BDA717 /* Appfrases.xcdatamodeld in Sources */,
