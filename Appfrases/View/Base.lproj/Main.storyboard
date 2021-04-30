@@ -11,23 +11,17 @@
         <!--Tela Principal View Controller-->
         <scene sceneID="7ln-XR-piU">
             <objects>
-                <viewController id="ZJP-rU-qb0" customClass="TelaPrincipalViewController" customModule="Appfrases" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ZJP-rU-qb0" customClass="TelaPrincipalViewController" customModule="Appfrases" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tfw-8h-23a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQJ-on-qKC" userLabel="backgroundImage">
                                 <rect key="frame" x="0.0" y="-17" width="414" height="913"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ri-F8-Jat">
-                                        <rect key="frame" x="69" y="841" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como você está se sentindo hoje? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ela-hN-chW">
-                                <rect key="frame" x="33" y="60" width="348" height="115"/>
+                                <rect key="frame" x="33" y="79" width="348" height="109"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
                                 <color key="textColor" red="0.85390745296649917" green="0.88177518408394151" blue="0.90771052813289144" alpha="0.80505290252483441" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -98,13 +92,24 @@
                                     <action selector="btAjuda:" destination="ZJP-rU-qb0" eventType="touchUpInside" id="QCD-U3-xkb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tta-lZ-45p">
+                                <rect key="frame" x="20" y="44" width="48" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Sair">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="A69-L4-o5D" kind="show" id="M5l-bV-waO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yiC-rd-C5J"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="9g4-Vg-B0h" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" constant="789" id="2Ac-BM-1Xg"/>
-                            <constraint firstItem="Ela-hN-chW" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" constant="16" id="3FE-3G-K7y"/>
+                            <constraint firstItem="Ela-hN-chW" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" constant="35" id="3FE-3G-K7y"/>
                             <constraint firstItem="9g4-Vg-B0h" firstAttribute="bottom" secondItem="yiC-rd-C5J" secondAttribute="bottom" constant="6" id="5fs-Bx-vlG"/>
+                            <constraint firstItem="yiC-rd-C5J" firstAttribute="trailing" secondItem="tta-lZ-45p" secondAttribute="trailing" constant="346" id="9SN-C1-Gl8"/>
                             <constraint firstItem="Ela-hN-chW" firstAttribute="trailing" secondItem="yiC-rd-C5J" secondAttribute="trailing" constant="-33" id="CXH-dq-DZO"/>
                             <constraint firstItem="DQJ-on-qKC" firstAttribute="bottom" secondItem="yiC-rd-C5J" secondAttribute="bottom" constant="34" id="Cgo-Ry-rN0"/>
                             <constraint firstItem="yiC-rd-C5J" firstAttribute="trailing" secondItem="DQJ-on-qKC" secondAttribute="trailing" id="Jpu-RA-nED"/>
@@ -119,9 +124,10 @@
                             <constraint firstItem="ewD-ab-VKJ" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" constant="120" id="fBa-7a-v5r"/>
                             <constraint firstItem="Ela-hN-chW" firstAttribute="leading" secondItem="yiC-rd-C5J" secondAttribute="leading" constant="33" id="ghj-Wj-7AU"/>
                             <constraint firstItem="9g4-Vg-B0h" firstAttribute="leading" secondItem="yiC-rd-C5J" secondAttribute="leading" constant="84" id="jKi-9k-1co"/>
-                            <constraint firstItem="yiC-rd-C5J" firstAttribute="bottom" secondItem="Ela-hN-chW" secondAttribute="bottom" constant="687" id="m7B-mb-4jw"/>
+                            <constraint firstItem="yiC-rd-C5J" firstAttribute="bottom" secondItem="Ela-hN-chW" secondAttribute="bottom" constant="674" id="m7B-mb-4jw"/>
                             <constraint firstItem="DQJ-on-qKC" firstAttribute="leading" secondItem="yiC-rd-C5J" secondAttribute="leading" id="n7F-kX-3ll"/>
                             <constraint firstItem="yiC-rd-C5J" firstAttribute="bottom" secondItem="ewD-ab-VKJ" secondAttribute="bottom" constant="576" id="nlS-lr-w8Z"/>
+                            <constraint firstItem="tta-lZ-45p" firstAttribute="top" secondItem="yiC-rd-C5J" secondAttribute="top" id="yxx-W5-qgu"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="em0-eh-9fH"/>
@@ -135,14 +141,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqn-Bz-Ubz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1232" y="-13"/>
+            <point key="canvasLocation" x="1230.4347826086957" y="-13.392857142857142"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="e43-uy-CUL">
             <objects>
-                <viewController id="A69-L4-o5D" customClass="LoginViewController" customModule="Appfrases" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="A69-L4-o5D" customClass="LoginViewController" customModule="Appfrases" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HMG-Xj-jdS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you fell? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIe-Rx-QZm">
@@ -232,6 +238,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="h0y-fK-yvQ" id="0qz-5k-VOz"/>
                         <outlet property="senhaTextField" destination="fJ1-WB-odK" id="0k2-ZP-jHG"/>
+                        <segue destination="ZJP-rU-qb0" kind="show" identifier="telaPrincipal" id="vaP-g2-9r2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UuJ-zy-LQ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -241,9 +248,9 @@
         <!--Cadastrar View Controller-->
         <scene sceneID="XyT-v8-PUT">
             <objects>
-                <viewController id="N2l-iV-c3H" customClass="CadastrarViewController" customModule="Appfrases" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="N2l-iV-c3H" customClass="CadastrarViewController" customModule="Appfrases" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aEq-ud-FwP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="H D        Y F" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCr-po-7eH">
@@ -341,6 +348,9 @@
             <point key="canvasLocation" x="413" y="-13"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="M5l-bV-waO"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="ouvirnospotify" width="1024" height="251"/>
         <systemColor name="systemGray2Color">

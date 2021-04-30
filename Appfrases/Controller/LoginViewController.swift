@@ -37,19 +37,19 @@ class LoginViewController: UIViewController {
     @IBAction func btEntrar(_ sender: UIButton) {
         let email:String = self.emailTextField.text ?? ""
         let senha:String = self.senhaTextField.text ?? ""
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let novoViewController = storyBoard.instantiateViewController(withIdentifier: "ViewViaCodigo")
+        
         
         self.auth?.signIn(withEmail: email, password: senha, completion: { (usuario, error) in
             if error != nil{
                 self.alert(title: "Ops! Algo deu errado.", message: "Dados incorretos, tente novamente!")
-                print("Dados incorretos, tente novamente!")
+//                print("Dados incorretos, tente novamente!")
                 
             }else{
+
+                self.performSegue(withIdentifier: "telaPrincipal", sender: nil)
 //                self.alert(title: "Parabéns", message: "Login realizado com Sucesso!")
-                self.present(novoViewController, animated: true, completion: nil)
                
-                print("Login feito com Sucesso!")
+//                print("Login feito com Sucesso!")
                 
             }
         })
