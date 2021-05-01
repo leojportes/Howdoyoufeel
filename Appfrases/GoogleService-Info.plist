@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>726499534665-d4nubjl48r8465bn4kslbi9kt1eq464c.apps.googleusercontent.com</string>
+	<string>140941451519-66hvs2l3r971u48bojiemlo2g010u9s9.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.726499534665-d4nubjl48r8465bn4kslbi9kt1eq464c</string>
+	<string>com.googleusercontent.apps.140941451519-66hvs2l3r971u48bojiemlo2g010u9s9</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCS3Ke4H9OIAQ0kAt-VeAIb8RlkQky7o4M</string>
+	<string>AIzaSyBBfPXvOqFEII_5ZUCuO4eZceeBmncJLLM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>726499534665</string>
+	<string>140941451519</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>br.com.everis.Appfrases</string>
 	<key>PROJECT_ID</key>
-	<string>hdyfapp</string>
+	<string>howdoyoufell-245b6</string>
 	<key>STORAGE_BUCKET</key>
-	<string>hdyfapp.appspot.com</string>
+	<string>howdoyoufell-245b6.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:726499534665:ios:d8974be1a722557d291c98</string>
+	<string>1:140941451519:ios:f06158e1219ec0df366cca</string>
 </dict>
 </plist>

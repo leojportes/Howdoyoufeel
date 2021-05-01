@@ -40,10 +40,7 @@ class RedefinirSenhaViewController: UIViewController {
                 
             }else{
                 
-                
-
-                
-                self.alert(title: "Parabéns", message: "A redefinição de senha foi enviada no Email Cadastrado")
+                self.alert(title: "Verifique seu Email", message: "O link para redefinir sua senha foi enviado para o email mencionado.")
                 
             }
         }

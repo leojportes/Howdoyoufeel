@@ -151,7 +151,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you fell? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIe-Rx-QZm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you feel? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIe-Rx-QZm">
                                 <rect key="frame" x="101" y="169" width="213" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
@@ -165,25 +165,25 @@
                                 <color key="textColor" red="0.85390745300000004" green="0.8817751841" blue="0.90771052809999997" alpha="0.80505290249999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="usuario@email.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h0y-fK-yvQ">
-                                <rect key="frame" x="50" y="391" width="287" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="usuario@domínio.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h0y-fK-yvQ">
+                                <rect key="frame" x="50" y="391" width="315" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.16233469556261612" green="0.16155046998018804" blue="0.16311892114504423" alpha="0.82220580246274833" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6W-0x-K3y">
-                                <rect key="frame" x="50" y="349" width="75" height="34"/>
+                                <rect key="frame" x="50" y="349" width="69" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Senha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oaa-ty-BvC">
-                                <rect key="frame" x="50" y="448" width="84" height="34"/>
+                                <rect key="frame" x="50" y="448" width="78" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -198,21 +198,14 @@
                                     <segue destination="N2l-iV-c3H" kind="show" id="9iy-aO-IMv"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="digite a senha cadastrada" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJ1-WB-odK">
-                                <rect key="frame" x="50" y="490" width="287" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite a sua senha." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJ1-WB-odK">
+                                <rect key="frame" x="50" y="490" width="315" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1623346956" green="0.16155047" blue="0.16311892110000001" alpha="0.82220580249999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Faça o Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLn-Z6-Ysc">
-                                <rect key="frame" x="102" y="244" width="210" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
-                                <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHg-iw-IoJ">
                                 <rect key="frame" x="50" y="570" width="315" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -233,11 +226,20 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkP-Mk-OQA">
                                 <rect key="frame" x="141" y="627" width="132" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Esqueceu a senha?"/>
+                                <state key="normal" title="Esqueceu a senha?">
+                                    <color key="titleColor" red="0.34666525679999999" green="0.61077210400000004" blue="0.2925639035" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="btRedefinirSenha:" destination="A69-L4-o5D" eventType="touchUpInside" id="5Jw-lB-tRF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Faça o Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLn-Z6-Ysc">
+                                <rect key="frame" x="104" y="265" width="210" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
+                                <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hAH-Uc-pUD"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -269,40 +271,40 @@
                                 <color key="textColor" red="0.85390745300000004" green="0.8817751841" blue="0.90771052809999997" alpha="0.80505290249999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you fell? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSR-oC-7tl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you feel? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSR-oC-7tl">
                                 <rect key="frame" x="101" y="169" width="213" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                 <color key="textColor" red="0.31414345710000002" green="0.55347357860000002" blue="0.26511752840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="usuario@email.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9U-T0-soM">
-                                <rect key="frame" x="50" y="391" width="287" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cadastre um Email." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9U-T0-soM">
+                                <rect key="frame" x="50" y="391" width="315" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1623346956" green="0.16155047" blue="0.16311892110000001" alpha="0.82220580249999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" keyboardType="emailAddress"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cadastre uma senha" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O1n-TA-yLT">
-                                <rect key="frame" x="50" y="490" width="287" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cadastre uma senha." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O1n-TA-yLT">
+                                <rect key="frame" x="50" y="490" width="315" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1623346956" green="0.16155047" blue="0.16311892110000001" alpha="0.82220580249999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p79-BD-c2y">
-                                <rect key="frame" x="50" y="349" width="75" height="34"/>
+                                <rect key="frame" x="50" y="349" width="69" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Senha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQu-o3-ThY">
-                                <rect key="frame" x="50" y="448" width="84" height="34"/>
+                                <rect key="frame" x="50" y="448" width="78" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -323,13 +325,6 @@
                                     <action selector="btCadastrar:" destination="N2l-iV-c3H" eventType="touchUpInside" id="SA0-yi-KaB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cadastre sua Conta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JT-FU-UKp">
-                                <rect key="frame" x="46" y="244" width="322" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
-                                <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fk-Nl-DyG">
                                 <rect key="frame" x="146" y="695" width="122" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -342,6 +337,13 @@
                                     <segue destination="A69-L4-o5D" kind="show" id="9sQ-IE-70D"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cadastre sua conta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JT-FU-UKp">
+                                <rect key="frame" x="46" y="269" width="317" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
+                                <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jId-fQ-yLe"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -371,26 +373,11 @@
                                 <color key="textColor" red="0.85390745300000004" green="0.8817751841" blue="0.90771052809999997" alpha="0.80505290249999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you fell? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WqH-76-ohE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you feel? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WqH-76-ohE">
                                 <rect key="frame" x="101" y="169" width="213" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                 <color key="textColor" red="0.31414345710000002" green="0.55347357860000002" blue="0.26511752840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="usuario@email.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nD7-0a-Yt5">
-                                <rect key="frame" x="50" y="452" width="287" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1623346956" green="0.16155047" blue="0.16311892110000001" alpha="0.82220580249999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YK-cW-dLX">
-                                <rect key="frame" x="50" y="410" width="75" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
-                                <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIo-JO-dA7">
@@ -411,7 +398,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Redefinir Senha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiI-tx-yJi">
-                                <rect key="frame" x="78" y="244" width="259" height="41"/>
+                                <rect key="frame" x="78" y="283" width="259" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
                                 <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -428,6 +415,21 @@
                                     <segue destination="A69-L4-o5D" kind="show" id="2CG-QS-by6"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="usuario@email.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nD7-0a-Yt5">
+                                <rect key="frame" x="50" y="475" width="315" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" keyboardType="emailAddress"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YK-cW-dLX">
+                                <rect key="frame" x="50" y="433" width="69" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" red="0.74710112019999997" green="0.74349193599999996" blue="0.75071030429999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FBQ-Vd-tsF"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -439,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A7E-kE-r3K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-420" y="682"/>
+            <point key="canvasLocation" x="-420.28985507246381" y="681.69642857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -450,8 +452,8 @@
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="tertiarySystemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
