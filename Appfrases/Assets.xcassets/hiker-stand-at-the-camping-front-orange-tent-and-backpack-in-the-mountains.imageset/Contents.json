@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "hiker-stand-at-the-camping-front-orange-tent-and-backpack-in-the-mountains.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
