@@ -1,9 +1,9 @@
 # How do you Fell? 
 
-***Objetivo:
+# Objetivo:
 
 Aplicativo com objetivo de transformar o dia do usuário, melhor.
-Ajuda pelo 
+Botão com link de ajuda para o site da CVV www.cvv.org.br .
 
 
 
