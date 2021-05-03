@@ -14,3 +14,11 @@ Conforme o Sentimento do Usuário, ele irá mostrar 1 frase diferente, por cada 
 Na mesma tela, também conforme o sentimento escolhido pelo usuário anteriormente, junto com a frase, irá mostrar uma Playlist do Spotify. 
 - Clicando na Playlist, o usuário é redirecionado para o site do Spotify, diretamente para a playlist. 
 
+
+##Tecnologias:
+
+Banco de Dados: Firebase
+Autenticação: Email e Senha. 
+Recuperacão de senha via Email cadastrado.
+
+
