@@ -1,6 +1,6 @@
 # How do you Fell? 
 
-**Objetivo:
+***Objetivo:
 
 Aplicativo com objetivo de transformar o dia do usuário, melhor.
 Ajuda pelo 
@@ -15,7 +15,7 @@ Na mesma tela, também conforme o sentimento escolhido pelo usuário anteriormen
 - Clicando na Playlist, o usuário é redirecionado para o site do Spotify, diretamente para a playlist. 
 
 
-##Tecnologias:
+# Tecnologias:
 
 Banco de Dados: Firebase
 Autenticação: Email e Senha. 
