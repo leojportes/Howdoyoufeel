@@ -94,11 +94,7 @@ class LoginViewController: UIViewController {
         alertController.addAction(ok)
         self.present(alertController, animated: true, completion: nil)
         }
-    
-
-    
-   
-    
+ 
     
 }
 

@@ -470,7 +470,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A7E-kE-r3K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-420.28985507246381" y="681.69642857142856"/>
+            <point key="canvasLocation" x="-586" y="729"/>
         </scene>
         <!--Redefinir Senha View Controller-->
         <scene sceneID="u6n-tT-jwr">
@@ -540,8 +540,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="iuE-sT-M0o"/>
         <segue reference="9iy-aO-IMv"/>
-        <segue reference="txr-Wd-lML"/>
+        <segue reference="2CG-QS-by6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ouvirnospotify" width="1024" height="251"/>
